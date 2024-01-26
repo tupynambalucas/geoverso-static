@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/land.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoverso</title>
+
+    <!-- Fontes -->
+    <link rel="stylesheet" href="https://use.typekit.net/wbm2uhg.css">
+    <link rel="stylesheet" href="css/fontes.css">
+
+    <!-- Midnight -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lib/midnight.jquery.min.js"></script>
+
+    <!-- Rellax -->
+    <script src="lib/rellax.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="fixed">
+        <div class="midnightHeader default">
+            <h1 class="montserrat-bold">Geoverso</h1>
+            <div class="nav">
+
+                <a class="montserrat-regular">Nossa Equipe</a>
+                <a class="montserrat-regular">Contato</a>
+            </div>
+        </div>
+        <div class="midnightHeader branco">
+            <h1 class="montserrat-bold">Geoverso</h1>
+            <div class="nav">
+
+                <a class="montserrat-regular">Nossa Equipe</a>
+                <a class="montserrat-regular">Contato</a>
+            </div>
+        </div>
+    </header>
+    <section class="sec1" data-midnight="branco">
+        <div class="sec1-conteudo">
+            <h1 class="montserrat-bold">Bem vindo ao GeoVerso</h1>
+            <p class="montserrat-regular">Seus projetos na palma da sua mão</p>
+        </div>
+        <div class="terra" id="terra"></div>
+    </section>
+    <section class="sec2">
+        <div class="fuji" id="fuji"></div>
+    </section>
+    <section class="sec3" data-midnight="branco">
+
+    </section>
+    <script src="js/fuji.js" type="module"></script>
+    <script src="js/terra.js" type="module"></script>
+    <script>
+        // Start midnight
+        $(document).ready(function(){
+          // Change this to the correct selector.
+          $('header.fixed').midnight();
+        });
+    </script>   
+</body>
+</html>

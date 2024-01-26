@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mount Fuji, Japan
+* source:	https://sketchfab.com/3d-models/mount-fuji-japan-dd0a4f1014fe4cc58a613e2ac5725ff7
+* author:	DamienMansell (https://sketchfab.com/DamienMansell)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mount Fuji, Japan" (https://sketchfab.com/3d-models/mount-fuji-japan-dd0a4f1014fe4cc58a613e2ac5725ff7) by DamienMansell (https://sketchfab.com/DamienMansell) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

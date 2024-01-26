@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+body,html{
+    height: 100vh!important;
+    width: 100%!important;
+}
+/* Navbar */
+header{
+    position: fixed;
+    z-index: 1000000000;
+    height: 7vh!important;
+    width: 100vw!important;
+    overflow: hidden!important;
+    padding: 0;
+    margin: 0;
+  
+}
+.midnightHeader.default {
+    color: lightyellow!important;
+    background: #0f0f0f;
+}
+.midnightHeader.default a{
+    color: lightyellow;
+}
+
+.midnightHeader.branco {
+    background: #E4E4E4;
+    color: #0f0f0f!important;
+}
+.midnightHeader.branco img{
+    color: #0f0f0f!important;
+}
+.midnightHeader.branco a{
+    color: #0f0f0f!important;
+}
+.nav{
+    position: relative;
+    display: flex;
+    top: 2vh;
+    right: 10vw;
+    float: right;
+}
+.fixed h1{
+    position: absolute;
+    font-size: 2vh;
+    top: 2.5vh;
+    left: 5vw;
+}
+.fixed img{
+    
+    height: 3vh;
+    z-index: 500000;
+    padding-top: 2.2vh;
+    margin-left: 1.5vw;
+}
+.nav a{
+    font-size: 2vh;
+    margin-left: 2vw;
+    margin-top: 0.5vh;
+    outline: none;
+    text-decoration: none;
+}
+.nav a:hover{
+    cursor: url('../img/cursors/pointer.png')4 0, pointer;
+}
+
+.sec1{
+    position: relative;
+    width: 100%!important;
+    height: 100vh;
+    background: #0f0f0f;
+}
+.sec1-conteudo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    top: 50vh;
+    right: 15vw;
+    font-size: 4vh;
+    color: snow;
+}
+.sec1-conteudo h1{
+    margin-bottom: 1vh;
+}
+.terra{
+    position: absolute;
+    height: 100vh!important;
+    width: 100%;
+    z-index: 100000000000000000;
+}
+.terra canvas{
+    height: 100vh!important;
+    width: 100%!important;
+}
+.sec2{
+    position: relative;
+    width: 100%!important;
+    height: 100vh;
+    background: snow;
+}
+.fuji{
+    position: absolute;
+    height: 100vh!important;
+    width: 100%;
+    z-index: 100000000000000000;
+}
+.fuji canvas{
+    height: 100vh!important;
+    width: 100%!important;
+}
+.sec3{
+    position: relative;
+    width: 100%!important;
+    height: 100vh;
+    background: #0f0f0f;
+}
